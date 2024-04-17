@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel = "stylesheet" href="style.css" />
-    <link rel = "stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class = "logo">Arshpreet Singh Sandhu</div>
+        <div class="logo">Arshpreet Singh Sandhu</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -25,9 +25,9 @@
         <div class="logo">Arshpreet Singh Sandhu</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -41,81 +41,84 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile.circle.png" alt="Arshpreet Singh Sandhu profile picture" /
-             >
+            <img src="./assets/profile.circle.png" alt="Arshpreet Singh Sandhu profile picture">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hi, I'm</p>
             <h1 class="title">Arshpreet Singh Sandhu</h1>
             <p class="section__text__p2">Computer Science Undergrad at Purdue University</p>
             <div class="btn-container">
-                <button
-                class="btn btn-color-2"
-                onclick="window.open('./assets/Arshpreet%20Resume.webdev.pdf')"
-                >
-                Download Resume
-            </button>
-            <button>
-                <button class="btn btn-color-1" onclick= "window.location.href='#contact'">
-                Contact Info
-            </button>
-        </div>
-        <div id="socials-container">
-            <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/arshpreet-singh-sandhu-ba0a14256/'"
-            />
-            <img
-            src="./assets/github.png"
-            alt="My GitHub profile"
-            class="icon"
-            onclick="location.href='https://github.com/ArshSSandhu'"
-            />
-        </div>
+                <button class="btn btn-color-2" onclick="window.open('./assets/Arshpreet%20Resume.webdev.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="window.location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/arshpreet-singh-sandhu-ba0a14256/'">
+                <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/ArshSSandhu/'">
+            </div>
         </div>
     </section>
 
     <section id="about">
-       <p class="section__text__p1">Get To Know More</p> 
-       <h1 class="title">About Me</h1> 
-       <div class="section-container">
-        <div class="section__pic-container">
-            <img src="./assets/fall2.jpg"
-             alt="Profile picture"
-             class="about-pic" />
+        <p class="section__text__p1">Get To Know More</p> 
+        <h1 class="title">About Me</h1> 
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/fall2.jpg" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Software Development Intern at Medical Informatics Engineering (MIE)<br />ISA Secretary at Purdue<br />ETCS Dean's Ambassador at Purdue</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.S. in Computer Science<br />Purdue University, USA<br />Minor: Mathematics<br />Honor's College<br />Graduation (May 2027)</p>
+                    </div>
+                </div>
+                <div class="text container">
+                    <p>I am a Computer Science undergraduate at Purdue University, driven by a thirst for challenge and a desire to explore one of the most dynamic fields. As an international student from India, I've encountered hurdles, but I firmly believe that a resilient mindset is pivotal. I advocate for self-improvement, growth, and exceeding one's potential. Beyond academics, I serve as the Secretary of the Indian Students Association at Purdue University and as an ETCS Dean's Ambassador. My aspiration is to become a software engineer, leveraging my skills and experiences to contribute meaningfully to the industry.</p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
         </div>
-        <div class="about-details-container">
-          <div class="about-containers"  >
-            <div class="details-container">
-                <img src="./assets/experience.png" 
-                alt="Experience icon"
-                class="icon"
-                />
-                <h3>Experience</h3>
-                <p>Software Development Intern at Medical Informatics Engineering(MIE)<br />ISA Secretary at Purdue<br />ETCS Dean's Ambassador at Purdue</p>
-            </div>
-            <div class="details-container">
-                <img src="./assets/education.png" 
-                alt="Education icon"
-                class="icon"
-                />
-                <h3>Education</h3>
-                <p>B.S. in Computer Science<br />Purdue University, USA<br />Minor: Mathematics<br />Honor's College<br />Graduation (May 2027)</p>
-            </div>
-            </div>
-            <div class="text container">
-                <p>I am a Computer Science undergraduate at Purdue University, driven by a thirst for challenge and a desire to explore one of the most dynamic fields. As an international student from India, I've encountered hurdles, but I firmly believe that a resilient mindset is pivotal. I advocate for self-improvement, growth, and exceeding one's potential. Beyond academics, I serve as the Secretary of the Indian Students Association at Purdue University and as an ETCS Dean's Ambassador. My aspiration is to become a software engineer, leveraging my skills and experiences to contribute meaningfully to the industry.</p>
-            </div>
-          </div>
-        </div>
-        <img src="./assets/arrow.png" 
-        alt="Arrow icon" 
-        class="icon arrow" 
-        onclick="location.href='./#experience'"/>
-       </div>
     </section>
+
+    <section id="travel">
+        <p class="section__text__p1">Explore My Adventures</p> 
+        <h1 class="title">Travel Experiences</h1> 
+        <div class="section-container">
+            <div class="section__pic-container">
+                <!-- Add your travel picture here -->
+                <img src="./assets/travel.jpg" alt="Travel picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <!-- Add an appropriate travel icon -->
+                        <img src="./assets/travel_icon.png" alt="Travel icon" class="icon">
+                        <h3>Chicago</h3>
+                        <p>Toured the city<br />Visited the Bean<br />Explored the Navy Pier</p>
+                    </div>
+                    <div class="details-container">
+                        <!-- Add an appropriate travel icon -->
+                        <img src="./assets/travel_experience.png" alt="Travel Experience icon" class="icon">
+                        <h3>Atlanta</h3>
+                        <p>Visited the Georgia Aquarium<br />Explored the World of Coca-Cola<br />Toured the CNN Center</p>
+                    </div>
+                </div>
+                <div class="text container">
+                    <!-- Add your travel experiences here -->
+                    <p>My India Travels here.</p>
+                </div>
+            </div>
+            <!-- Add an arrow to navigate to another section if needed -->
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
